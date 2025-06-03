@@ -79,12 +79,21 @@ body {
 
 
 
-  .site-layout {
+  .site-layouts {
     display: flex;
     margin-top: 50px;
     gap: 50px;                    /* Adds space between main and nav */
     align-items: flex-start;      /* Aligns items to the top */
     justify-content: right;
+}
+
+
+.site-layout {
+    display: flex;
+    margin-top: 50px;
+    gap: 50px;                    /* Adds space between main and nav */
+    align-items: flex-start;      /* Aligns items to the top */
+    justify-content: center;
 }
 
 
@@ -137,6 +146,86 @@ nav {
     .site-layout {
         justify-content: center;  /* Center main when nav is hidden */
     }
+}
+
+
+
+.videos {
+    display: flex;           /* Needed for padding to work on <a>. This makes the <a> tag behave like a block while still sitting inline with text. */
+    flex-direction: column;
+    margin: 15px;
+    background-color: green;
+    color: black;                  /* Sets the text color inside the button */
+    text-decoration: none;           /* Removes the default underline from <a> links. Makes it look more like a button and less like a regular hyperlink. */
+    padding: 10px 20px;              /* padding = space between button(element) conntent and button(element) border */
+    border-radius: 15px;              /* Controls how rounded the corners are. The higher the number the more round is the corner */
+    font-weight: bold;               /* Bold means the text appears thicker and darker than normal — it stands out more. With font-weight you can decide how the text will look, (How thin orlight it should look) */
+    transition: background-color 0.3s, transform 0.2s;  /* Adds a smooth animation when the button is hovered or focused.
+                                                            background-color 0.3s: fades the color change over 0.3 seconds.
+                                                            transform 0.2s: animates things like scale() (e.g. slight zoom on hover). */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-family: "Arial", sans-serif;
+}
+
+.videos2 {
+    display: flex;           /* Needed for padding to work on <a>. This makes the <a> tag behave like a block while still sitting inline with text. */
+    flex-direction: column;
+    margin: 15px;
+    background-color: yellow;
+    color: black;                  /* Sets the text color inside the button */
+    text-decoration: none;           /* Removes the default underline from <a> links. Makes it look more like a button and less like a regular hyperlink. */
+    padding: 10px 20px;              /* padding = space between button(element) conntent and button(element) border */
+    border-radius: 15px;              /* Controls how rounded the corners are. The higher the number the more round is the corner */
+    font-weight: bold;               /* Bold means the text appears thicker and darker than normal — it stands out more. With font-weight you can decide how the text will look, (How thin orlight it should look) */
+    transition: background-color 0.3s, transform 0.2s;  /* Adds a smooth animation when the button is hovered or focused.
+                                                            background-color 0.3s: fades the color change over 0.3 seconds.
+                                                            transform 0.2s: animates things like scale() (e.g. slight zoom on hover). */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-family: "Arial", sans-serif;
+}
+
+.videos3 {
+    display: flex;           /* Needed for padding to work on <a>. This makes the <a> tag behave like a block while still sitting inline with text. */
+    flex-direction: column;
+    margin: 15px;
+    background-color: blueviolet;
+    color: black;                  /* Sets the text color inside the button */
+    text-decoration: none;           /* Removes the default underline from <a> links. Makes it look more like a button and less like a regular hyperlink. */
+    padding: 10px 20px;              /* padding = space between button(element) conntent and button(element) border */
+    border-radius: 15px;              /* Controls how rounded the corners are. The higher the number the more round is the corner */
+    font-weight: bold;               /* Bold means the text appears thicker and darker than normal — it stands out more. With font-weight you can decide how the text will look, (How thin orlight it should look) */
+    transition: background-color 0.3s, transform 0.2s;  /* Adds a smooth animation when the button is hovered or focused.
+                                                            background-color 0.3s: fades the color change over 0.3 seconds.
+                                                            transform 0.2s: animates things like scale() (e.g. slight zoom on hover). */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-family: "Arial", sans-serif;
+}
+
+.videos4 {
+    display: flex;           /* Needed for padding to work on <a>. This makes the <a> tag behave like a block while still sitting inline with text. */
+    flex-direction: column;
+    margin: 15px;
+    background-color: red;
+    color: black;                  /* Sets the text color inside the button */
+    text-decoration: none;           /* Removes the default underline from <a> links. Makes it look more like a button and less like a regular hyperlink. */
+    padding: 10px 20px;              /* padding = space between button(element) conntent and button(element) border */
+    border-radius: 15px;              /* Controls how rounded the corners are. The higher the number the more round is the corner */
+    font-weight: bold;               /* Bold means the text appears thicker and darker than normal — it stands out more. With font-weight you can decide how the text will look, (How thin orlight it should look) */
+    transition: background-color 0.3s, transform 0.2s;  /* Adds a smooth animation when the button is hovered or focused.
+                                                            background-color 0.3s: fades the color change over 0.3 seconds.
+                                                            transform 0.2s: animates things like scale() (e.g. slight zoom on hover). */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-family: "Arial", sans-serif;
+}
+
+.videos:hover,
+.videos2:hover,
+.videos3:hover,
+.videos4:hover {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
 
