@@ -138,12 +138,12 @@ nav {
 
 
 /* Media query to hide nav when there's not enough space */
-@media (max-width: 1150px) {
+@media (max-width: 1500px) {
     nav {
         display: none;  /* Hide nav completely */
     }
     
-    .site-layout {
+    .site-layouts {
         justify-content: center;  /* Center main when nav is hidden */
     }
 }
